@@ -1,3 +1,3 @@
 function orcamento(){
-    alert('Orçamento Realizado!')
+    alert('Orçamento Solicitado!')
 }
