@@ -23,7 +23,7 @@
         <nav id="menu">
             <ul>
                 <li><a href="#" target="_self" rel="author">Como funciona</a></li>
-                <li><a href="#" target="_self" rel="author" class="btn__header">Seja um profissional</a></li>
+                <li><a id="openPopup" href="#" target="_self" rel="author" class="btn__header">Seja um profissional</a></li>
             </ul>
         </nav>
     </header>
@@ -109,8 +109,8 @@
                             <img src="assets/img/mudancas.png" alt="Mudanças">
                         </div>
                         <div class="servicos__txt">
-                            <p>Mudanças e Carretos</p>
-                            <a href="#"><button class="button btn__card">Solicitar orçamento</button></a>
+                            <p>Mudanças e Fretes</p>
+                            <a href="pages/mudancas.html"><button class="button btn__card">Solicitar orçamento</button></a>
                         </div>
                     </div>
                 </article>
@@ -250,6 +250,22 @@
         <i class="ri-arrow-up-line scrollup__icon"></i>
     </a>
 
+    <!--========== POP UP ==========-->
+    <div id="popupContainer">
+        <div id="popupContent">
+            <h2>Cadastre-se e se torne um prestador de serviços BLEI!</h2>
+            <form id="signupForm">
+                <input type="text" id="firstName" placeholder="Nome" required>
+                <input type="text" id="lastName" placeholder="Sobrenome" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Senha" required>
+                <button type="submit" class="button">Cadastrar</button>
+            </form>
+            <p>Ao se cadastrar, você concorda com nossos <a href="#">Termos e Condições</a> e <a href="#">Política de Privacidade</a>.</p>
+            <a id="closePopup" >Fechar</a>
+        </div>
+    </div>
+    
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/scrollReveal.js"></script>
