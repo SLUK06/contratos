@@ -50,27 +50,27 @@
                 <div id="tipos_servicos">
                     <h2>Qual serviço de mudanças ou fretes está precisando?</h2>
                     <div class="escolhas">
-                        <a href="#" title="Troca de disjuntores">
+                        <a href="#" title="Mudança de apartamento" onclick="orcamento()">
                             <h3>Mudança de apartamento <img class="seta" src="../assets/img/arrow24px.svg" alt="Seta"></h3>
                         </a>
                     </div>
                     <div class="escolhas">
-                        <a href="#" title="Fiações elétricas">
+                        <a href="#" title="Mudança de casa" onclick="orcamento()">
                             <h3>Mudança de casa <img class="seta" src="../assets/img/arrow24px.svg" alt="Seta"></h3>
                         </a>
                     </div>
                     <div class="escolhas">
-                        <a href="#" title="Iluminações">
+                        <a href="#" title="Frete de até 100Kg" onclick="orcamento()">
                             <h3>Frete de até 100Kg<img class="seta" src="../assets/img/arrow24px.svg" alt="Seta"></h3>
                         </a>
                     </div>
-                    <div class="escolhas">
-                        <a href="#" title="Quadros e painéis elétricos">
+                    <div class="escolhas" onclick="orcamento()">
+                        <a href="#" title="Frete de 100 a 500Kg">
                             <h3>Frete de 100 a 500Kg <img class="seta" src="../assets/img/arrow24px.svg" alt="Seta"></h3>
                         </a>
                     </div>
-                    <div class="escolhas">
-                        <a href="#" title="Montagem de padrão de entrada">
+                    <div class="escolhas" onclick="orcamento()">
+                        <a href="#" title="Frete de mais de 500Kg">
                             <h3>Frete de mais de 500Kg <img class="seta" src="../assets/img/arrow24px.svg" alt="Seta"></h3>
                         </a>
                     </div>
@@ -281,6 +281,7 @@
     <!--=============== MAIN JS ===============-->
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/scrollReveal.js"></script>
+    <script src="../assets/js/alert.js"></script>
     <script>
         document.getElementById('openPopup').addEventListener('click', function() {
         document.getElementById('popupContainer').style.display = 'block';
