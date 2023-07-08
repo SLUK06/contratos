@@ -220,6 +220,16 @@ main {
     align-items: center;
     margin: 10rem 0;
 }
+#input__anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 17rem;
+    padding: 5rem 0;
+    background-color: var(--cor_branco);
+    border: solid 2px var(--cor_cinza);
+    border-radius: .8rem;
+}
 
 #input__pesquisar > .busca input:focus {
     border: none;
